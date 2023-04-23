@@ -56,10 +56,10 @@
                 <li class="nav-item">
                   <a class="nav-link" href="about.html"> About</a>
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item">
                   <a class="nav-link" href="service.html"> Services </a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                   <a class="nav-link" href="register.html"> Register </a>
                 </li>
                 <li class="nav-item">
@@ -90,147 +90,82 @@
     <div class="container-fluid">
       <div class="heading_container">
         <h2>
-          Registered individuals
+          Register to be Listed
         </h2>
       </div>
 
       <div class="service_container">
-        <div class="box">
-          <div class="img-box">
-            <img src="images/userProf.png" alt="">
-          </div>
-          <div class="detail-box">
-            <h5>
-              Anthony
-            </h5>
-            <p>
-              A musician with 5 years of experience.
-              Specialized in Piano and Guitar.
-              Will be able to teach on Saturday.
-              Rates: 300 per class of 1 hour duration
-              Contact: 9999999999
-
-            </p>
-          </div>
-        </div>
-        <div class="box">
-          <div class="img-box">
-            <img src="images/userProf.png" alt="">
-          </div>
-          <div class="detail-box">
-            <h5>
-             Aaron
-            </h5>
-            <p>
-              Analyst
-              Business Analyst @Morgan Stanley
-              Provide Free consulation
-              Saturday between 10 am to 1 pm
-              Rate: Free
-            </p>
-          </div>
-        </div>
-        <div class="box">
-          <div class="img-box">
-            <img src="images/userProf.png" alt="">
-          </div>
-          <div class="detail-box">
-            <h5>
-              Bell
-            </h5>
-            <p>
-              Italian Cusine Maker
-              Makes all kinds of Italian food
-              Contact: 999999999
-            </p>
-            <div class="btn-box">
-        <a href="">
-          Menu
-        </a>
+        <form class="needs-validation" novalidate>
+  <div class="form-row">
+    <div class="col-md-4 mb-3">
+      <label for="validationCustom01">First name</label>
+      <input type="text" class="form-control" id="validationCustom01" placeholder="First name" value="Mark" required>
+      <div class="valid-feedback">
+        Looks good!
       </div>
-          </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationCustom02">Last name</label>
+      <input type="text" class="form-control" id="validationCustom02" placeholder="Last name" value="Otto" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationCustomUsername">Username</label>
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroupPrepend">@</span>
         </div>
-        <div class="box">
-          <div class="img-box">
-            <img src="images/userProf.png" alt="">
-          </div>
-          <div class="detail-box">
-            <h5>
-              Derek
-            </h5>
-            <p>
-              Electrician
-              Monday to Saturday
-              11am to 7pm
-              Rates: As per job.
-            </p>
-          </div>
+        <input type="text" class="form-control" id="validationCustomUsername" placeholder="Username" aria-describedby="inputGroupPrepend" required>
+        <div class="invalid-feedback">
+          Please choose a username.
         </div>
-        <div class="box">
-          <div class="img-box">
-            <img src="images/userProf.png" alt="">
-          </div>
-          <div class="detail-box">
-            <h5>
-              Celene
-            </h5>
-            <p>
-              Teacher
-              Tutions for STD 5 to 10
-              All Subjects
-              Rate: 6000 per month
-              Contact: 9999999999
-            </p>
-          </div>
-        </div>
+      </div>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="validationCustom03">Address</label>
+      <input type="text" class="form-control" id="validationCustom03" placeholder="Address" required>
+      <div class="invalid-feedback">
+        Please provide a valid Address.
+      </div>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="validationCustom04">Age</label>
+      <input type="text" class="form-control" id="validationCustom04" placeholder="Age" required>
+      <div class="invalid-feedback">
+        Please provide a valid Age.
+      </div>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="validationCustom05">Zip</label>
+      <input type="text" class="form-control" id="validationCustom05" placeholder="Zip" required>
+      <div class="invalid-feedback">
+        Please provide a valid zip.
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+      <label class="form-check-label" for="invalidCheck">
+        Agree to terms and conditions
+      </label>
+      <div class="invalid-feedback">
+        You must agree before submitting.
+      </div>
+    </div>
+  </div>
+  <button class="btn btn-primary" type="submit">Submit form</button>
+</form>
       </div>
     </div>
   </section>
   <!-- end service section -->
 
   <div class="footer_bg">
-
-    <!-- contact section -->
-    <section class="contact_section layout_padding" id="contactLink">
-      <div class="container">
-        <div class="heading_container">
-          <h2>
-            Get In touch
-          </h2>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 col-md-8 mx-auto">
-            <form>
-              <div class="form-row">
-                <div class="form-group col-md-6">
-                  <input type="text" class="form-control" id="inputName4" placeholder="Name ">
-                </div>
-                <div class="form-group col-md-6">
-                  <input type="email" class="form-control" id="inputEmail4" placeholder="Email id">
-                </div>
-
-              </div>
-              <div class="form-row">
-                <div class="form-group col">
-                  <input type="text" class="form-control" id="inputSubject4" placeholder="Subject">
-                </div>
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" id="inputMessage" placeholder="Message">
-              </div>
-              <div class="d-flex justify-content-center">
-                <button type="submit" class="">Send</button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    <!-- end contact section -->
 
 
 
